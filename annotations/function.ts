@@ -24,3 +24,10 @@ const divide = function (a: number, b: number): number {
 };
 
 console.log(divide(100, 5));
+
+//no return for type void
+const logger = (message: string): void => {
+  console.log(message);
+};
+
+logger('Hello TS');
