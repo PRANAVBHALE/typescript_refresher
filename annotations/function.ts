@@ -12,3 +12,15 @@ const myFn2 = (a: number, b: number): number => {
 };
 
 console.log(myFn2(10, 20));
+
+function multiple(a: number, b: number): number {
+  return a * b;
+}
+
+console.log(multiple(5, 5));
+
+const divide = function (a: number, b: number): number {
+  return a / b;
+};
+
+console.log(divide(100, 5));
