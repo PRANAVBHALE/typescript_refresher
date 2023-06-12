@@ -5,3 +5,7 @@ const moviesByMakers: string[][] = [
   ['Batman', 'Wonderwoman', 'Superman'],
   ['Casino Royale', 'Spectre'],
 ];
+
+//flexible types
+
+const dates: (string | Date)[] = [new Date(), '2020-12-1'];
